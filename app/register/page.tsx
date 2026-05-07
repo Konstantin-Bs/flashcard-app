@@ -41,7 +41,7 @@ export default function RegisterPage() {
         <div className="max-w-sm mx-auto top-20 p-6">
             <div>
                 <h1 className="text-2xl p-6 font-semibold mb-6 text-center">
-                    Sign up to AppName
+                    Sign up to FlashAI
                 </h1>
             </div>
             <div>

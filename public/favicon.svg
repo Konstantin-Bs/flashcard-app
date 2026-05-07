@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="150" viewBox="0 0 200 150" role="img">
+  <title>FlashAI favicon</title>
+  <desc>Simple FA favicon for FlashAI</desc>
+
+  <rect x="40" y="10" width="120" height="88" rx="10" fill="#1e293b" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+  <line x1="40" y1="32" x2="160" y2="32" stroke="rgba(255,255,255,0.4)" stroke-width="2"/>
+  <text x="100" y="68" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="500" font-size="26" fill="#f1f5f9">F<tspan fill="#4f8ef7">A</tspan></text>
+</svg>

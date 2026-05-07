@@ -23,7 +23,7 @@ export default function Home() {
         <div className="flex flex-col items-center justify-center mt-32 max-w-full gap-12">
             <h1 className="text-8xl text-center font-sans">
                 Welcome to
-                <span className="block">AppName</span>
+                <span className="block">FlashAI</span>
             </h1>
             <button 
                 onClick={handleSignUp}

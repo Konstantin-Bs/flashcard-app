@@ -40,7 +40,7 @@ export function Header() {
                     <div className="flex h-16 items-center justify-between px-6">
                         <div>
                             <Link href="/home">
-                                Logo/Home
+                                <img src="/logo.svg" alt="FlashAI" width={90} />
                             </Link>
                         </div>
                         <div className="flex items-center gap-5">
@@ -59,7 +59,7 @@ export function Header() {
                     <div className="flex h-16 items-center justify-between px-6">
                         <div>
                             <Link href="/">
-                                Logo/Home
+                                <img src="/logo.svg" alt="FlashAI" width={90} />
                             </Link>
                         </div>
                         <div className="flex items-center gap-5">

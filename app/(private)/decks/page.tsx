@@ -6,7 +6,6 @@ import NameForm from "@/components/NameForm"
 import { loadDecks, deleteDeck } from "@/lib/storage"
 import { Deck, Flashcard } from "@/lib/types"
 import { useAuth } from "@/lib/auth-context"
-import Link from "next/link"
 import { Plus } from "lucide-react"
 
 export default function Home() {

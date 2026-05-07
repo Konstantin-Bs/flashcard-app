@@ -1,7 +1,6 @@
 "use client"
 
 import { useState, useRef, useEffect } from "react"
-import { Flashcard } from "@/lib/types"
 import { addCardsToDeck } from "@/lib/storage"
 import { X } from "lucide-react"
 
