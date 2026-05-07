@@ -107,7 +107,7 @@ export default function DeckDetailPage({ params }: { params: Promise<{ id: strin
       {!isEditingName && (
         <div className="flex items-center gap-3.5 pl-2">
           <h1 className="text-xl pl-0.5 cursor-default">{deckName}</h1>
-          <button onClick={handleIsEditingName} className="rounded-sm bg-gray-800 hover:bg-slate-900 p-1 cursor-pointer">
+          <button onClick={handleIsEditingName} className="rounded-sm bg-gray-200 hover:bg-gray-300 dark:bg-gray-800 dark:hover:bg-slate-900 p-1 cursor-pointer">
             <Pencil size={15}/>
           </button>
         </div>
@@ -145,7 +145,7 @@ export default function DeckDetailPage({ params }: { params: Promise<{ id: strin
           </tr>
         ) : (
         cards.map((card, index) => (
-          <tr key={card.id} className="bg-slate-900">
+          <tr key={card.id} className="bg-gray-100 dark:bg-slate-900">
             <td className="border border-black dark:border-white/10 p-2 text-center">{index + 1}</td>
             <td className="border border-black dark:border-white/10 p-2">{card.question}</td>
             <td className="border border-black dark:border-white/10 p-2">{card.answer}</td>

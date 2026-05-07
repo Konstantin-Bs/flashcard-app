@@ -142,21 +142,21 @@ export default function GenerateForm({ deckId, onSuccess, onClose }: Props) {
                 <button 
                     onClick={() => setInput(0)}
                     disabled={input === 0}
-                    className="rounded-md p-2 font-semibold transition transition-discrete duration-200 ease-in-out disabled:opacity-100 disabled:bg-gray-600 hover:opacity-100 hover:bg-gray-600"
+                    className="rounded-md p-2 font-semibold transition transition-discrete duration-200 ease-in-out disabled:opacity-100 disabled:bg-gray-200 dark:disabled:bg-gray-600 hover:opacity-100 hover:bg-gray-200 dark:hover:bg-gray-600"
                 >
                     Paste Text
                 </button>
                 <button 
                     onClick={() => setInput(1)}
                     disabled={input === 1}
-                    className="rounded-md p-2 font-semibold transition transition-discrete duration-200 ease-in-out disabled:opacity-100 disabled:bg-gray-600 hover:opacity-100 hover:bg-gray-600"
+                    className="rounded-md p-2 font-semibold transition transition-discrete duration-200 ease-in-out disabled:opacity-100 disabled:bg-gray-200 dark:disabled:bg-gray-600 hover:opacity-100 hover:bg-gray-200 dark:hover:bg-gray-600"
                 >
                     Upload File
                 </button>
                 <button 
                     onClick={() => setInput(2)}
                     disabled={input === 2}
-                    className="rounded-md p-2 font-semibold transition transition-discrete duration-200 ease-in-out disabled:opacity-100 disabled:bg-gray-600 hover:opacity-100 hover:bg-gray-600"
+                    className="rounded-md p-2 font-semibold transition transition-discrete duration-200 ease-in-out disabled:opacity-100 disabled:bg-gray-200 dark:disabled:bg-gray-600 hover:opacity-100 hover:bg-gray-200 dark:hover:bg-gray-600"
                 >
                     Own Card
                 </button>
@@ -272,7 +272,7 @@ export default function GenerateForm({ deckId, onSuccess, onClose }: Props) {
                 <button
                     onClick={handleGenerate}
                     disabled={loading}
-                    className="bg-blue-500 rounded-md p-2 font-semibold disabled:opacity-70 hover:opacity-70"
+                    className="bg-blue-500 text-white rounded-md p-2 font-semibold disabled:opacity-70 hover:opacity-70"
                 >
                     {loading ? "Generating..." : "Add Flashcard"}
                 </button>
@@ -280,7 +280,7 @@ export default function GenerateForm({ deckId, onSuccess, onClose }: Props) {
                 <button
                     onClick={handleGenerate}
                     disabled={loading}
-                    className="bg-blue-500 rounded-md p-2 font-semibold disabled:opacity-70 hover:opacity-70"
+                    className="bg-blue-500 text-white rounded-md p-2 font-semibold disabled:opacity-70 hover:opacity-70"
                 >
                     {loading ? "Generating..." : "Generate Flashcards"}
                 </button>

@@ -74,7 +74,7 @@ export default function LoginPage() {
 
                     <button
                         onClick={async () => await signInWithGoogle()}
-                        className="rounded-md p-2.5 w-full font-semibold border border-black dark:border-white/25 bg-gray-600/85 dark:bg-gray-700/85 hover:bg-gray-600 dark:hover:bg-gray-700 cursor-pointer"
+                        className="rounded-md p-2.5 w-full font-semibold border border-black dark:border-white/25 bg-gray-200/85 dark:bg-gray-700/85 hover:bg-gray-300 dark:hover:bg-gray-700 cursor-pointer"
                     >
                         Continue with Google
                     </button>

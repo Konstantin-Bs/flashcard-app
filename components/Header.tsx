@@ -57,6 +57,9 @@ export function Header() {
                             </Link>
                         </div>
                         <div className="flex items-center gap-5">
+                            <button onClick={() => setTheme(theme === "dark" ? "light" : "dark")} className="cursor-pointer">
+                                {theme === "dark" ? <Sun size={25} strokeWidth={1}/> : <Moon size={25} strokeWidth={1}/>}
+                            </button>
                             <button
                                 onClick={handleSignIn}
                                 className="p-2 rounded-md border border-transparent hover:opacity-60 cursor-pointer"

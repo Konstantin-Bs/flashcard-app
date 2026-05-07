@@ -24,7 +24,7 @@ export default function Home() {
         <div className="flex items-center justify-center mt-55">
             <button
                 onClick={handleDecks}
-                className="text-8xl border-2 border-black dark:border-white/30 hover:border-slate-900 dark:hover:border-transparent font-Bold rounded-2xl hover:bg-gray-400 dark:hover:bg-slate-800 p-7"
+                className="text-8xl border-2 border-black dark:border-white/30 hover:border-transparent dark:hover:border-transparent font-Bold rounded-2xl hover:bg-gray-200 shadow-2xl dark:hover:bg-slate-800 p-7"
             >
                 My Decks
             </button>

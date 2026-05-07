@@ -27,7 +27,7 @@ export default function Home() {
             </h1>
             <button 
                 onClick={handleSignUp}
-                className="text-4xl font-sans rounded-2xl p-3.5 bg-blue-600/85 hover:bg-blue-600 cursor-pointer"
+                className="text-4xl text-white font-sans rounded-2xl p-3.5 bg-blue-600/85 hover:bg-blue-600 cursor-pointer"
             >
                 Sign Up
             </button>

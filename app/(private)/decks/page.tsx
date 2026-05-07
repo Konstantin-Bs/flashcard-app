@@ -81,7 +81,7 @@ export default function Home() {
         {decks.map(deck => (
           <div
             key={deck.id}
-            className="rounded-xl p-5 flex items-center justify-between border border-black dark:border-white/30 dark:bg-slate-900 hover:bg-gray-400 dark:hover:bg-slate-800 transition-colors"
+            className="rounded-xl p-5 flex items-center justify-between border border-black dark:border-white/30 dark:bg-slate-900 hover:bg-gray-200 dark:hover:bg-slate-800 transition-colors"
             onClick={() => handleDecksList(deck.id)}
           >
             <div>
@@ -97,7 +97,7 @@ export default function Home() {
               </button>
               <button
                 onClick={(e) => {e.stopPropagation(); handleStudy(deck.id, deck.cards.length)}}
-                className="bg-slate-700 text-white rounded-lg p-2 px-4 text-sm font-semibold hover:bg-slate-800 border border-transparent hover:border-white/30 transition-colors"
+                className="bg-slate-500 dark:bg-slate-700 text-white rounded-lg p-2 px-4 text-sm font-semibold hover:bg-slate-600 dark:hover:bg-slate-800 border border-transparent hover:border-white/30 transition-colors"
               >
                 Study
               </button>
